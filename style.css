@@ -67,6 +67,7 @@ body {
 }
 .page {
   position: absolute;
+  display: -webkit-flex;
   display: flex;
   flex-direction: column;
   align-items: center;
