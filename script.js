@@ -46,7 +46,7 @@ function nextSection(node) {
 
 function selectAnswer() {
     var $button = $(this),
-        $buttonIndex = $button.parent().children().index($button) - 1;
+        $buttonIndex = $button.parent().children().index($button) - 2;
 
     console.log($buttonIndex, qId);
 
