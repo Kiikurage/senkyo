@@ -1,0 +1,44 @@
+//@main: ../main.less
+.page {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    h2 {
+        font-size: 2em;
+    }
+    section {
+        text-align: center;
+    }
+    &.slideUp {
+        .transition(0.5s ease);
+        .transform(translate3d(0, -100%, 0));
+    }
+    &.back1 {
+        background: hsv(20, 20%, 100%);
+    }
+    &.back2 {
+        background: hsv(80, 20%, 100%);
+    }
+    &.back3 {
+        background: hsv(140, 20%, 100%);
+    }
+    &.back4 {
+        background: hsv(200, 20%, 100%);
+    }
+    &.back5 {
+        background: hsv(260, 20%, 100%);
+    }
+    &.last {
+        background: #fff;
+    }
+}

@@ -1,0 +1,181 @@
+.answer {
+  display: block;
+  position: relative;
+  width: 400px;
+  margin: 0 auto 40px;
+  padding: 10px 0;
+  border: 3px solid transparent;
+  background: transparent;
+  color: #444;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-family: inherit;
+  font-size: 1em;
+  cursor: pointer;
+  outline: none;
+}
+.answer:hover {
+  border: 3px solid #222;
+  color: #222;
+}
+.answer:active {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+html,
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.next {
+  display: block;
+  position: relative;
+  width: 400px;
+  margin: 0 auto 40px;
+  padding: 10px 0;
+  border: 3px solid transparent;
+  background: transparent;
+  color: #444;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-family: inherit;
+  font-size: 1em;
+  cursor: pointer;
+  outline: none;
+}
+.next:hover {
+  border: 3px solid #222;
+  color: #222;
+}
+.next:active {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.last table td {
+  padding: 3px;
+}
+.last table tr:first-child td {
+  border-bottom: 2px solid #555;
+}
+.gage2 {
+  display: block;
+  position: relative;
+  vertical-align: bottom;
+  height: 0px;
+  width: 50px;
+}
+.page {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.page h2 {
+  font-size: 2em;
+}
+.page section {
+  text-align: center;
+}
+.page.slideUp {
+  transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  transform: translate3d(0, -100%, 0);
+  -webkit-transform: translate3d(0, -100%, 0);
+  -moz-transform: translate3d(0, -100%, 0);
+  -ms-transform: translate3d(0, -100%, 0);
+}
+.page.back1 {
+  background: #ffddcc;
+}
+.page.back2 {
+  background: #eeffcc;
+}
+.page.back3 {
+  background: #ccffdd;
+}
+.page.back4 {
+  background: #cceeff;
+}
+.page.back5 {
+  background: #ddccff;
+}
+.page.last {
+  background: #fff;
+}
+table.ik {
+  border-collapse: collapse;
+  margin-bottom: 40px;
+  width: 100%;
+}
+table.ik tr {
+  border-bottom: 1px dashed #888;
+}
+table.ik tr:last-child {
+  border-bottom-style: none;
+}
+table.ik th {
+  text-align: left;
+  padding: 10px;
+}
+table.ik td {
+  padding: 10px;
+}
+table.ik .party {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+.jimin {
+  background: #b33b00;
+}
+.minshu {
+  background: #3bb300;
+}
+.shamin {
+  background: #00b3b3;
+}
+.komei {
+  background: #3b00b3;
+}
+.ishin {
+  background: #b3003b;
+}
+.kyosan {
+  background: #b3b300;
+}
+.seikatu {
+  background: #00b33c;
+}
+.jisedai {
+  background: #003bb3;
+}
+.result {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+.result .gage {
+  display: block;
+  position: relative;
+  height: 5px;
+  width: 0%;
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+}
