@@ -128,6 +128,7 @@ table.ik tr:last-child {
 table.ik th {
   text-align: left;
   padding: 10px;
+  min-width: 120px;
 }
 table.ik td {
   padding: 10px;
@@ -135,6 +136,7 @@ table.ik td {
 table.ik .party {
   display: inline-block;
   padding: 3px 10px;
+  margin: 5px;
   border-radius: 5px;
   color: #fff;
 }
@@ -162,14 +164,14 @@ table.ik .party {
 .jisedai {
   background: #003bb3;
 }
-.result {
+#result {
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
   z-index: 1000;
 }
-.result .gage {
+#result .gage {
   display: block;
   position: relative;
   height: 5px;

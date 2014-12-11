@@ -82,7 +82,8 @@ function result() {
     }
 
     text1 = 'あなたの考えに最も近い政党は、' + party.join('、') + 'です。';
-    $('#mes').text(text1);
+    $('#mes')[0].innerText = text1;
+    $('#result').fadeOut(300);
 }
 
 data = [{

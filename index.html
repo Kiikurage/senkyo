@@ -4,7 +4,7 @@
 <head>
     <title>政治がわからない人のツール</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.5,minimum-scale=0.5, maximum-scale=0.5, user-scalable=yes">
+    <meta name="viewport" content="width=device-width, initial-scale=0.7,minimum-scale=0.7, maximum-scale=0.7, user-scalable=no">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -25,11 +25,6 @@
                 <br>予めご了承ください
             </p>
             <button class="next">了解した上ではじめる</button>
-            <p>
-                間違いがあれば修正するのでご指摘ください
-                <br>作者は大学生です
-                <br>小学４年生ではありません
-            </p>
 
             <p>
                 作者:<a href="https://twitter.com/mr_temperman">@mr_temperman</a>
@@ -46,14 +41,14 @@
         <section>
             <table class="ik">
                 <tr>
-                    <th>10%に上げるべき</th>
+                    <th>10%に上げる</th>
                     <td>
                         <span class="party jimin">自民党</span>
                         <span class="party komei">公明党</span>
                     </td>
                 </tr>
                 <tr>
-                    <th>8%のまま維持すべき</th>
+                    <th>8%のまま維持</th>
                     <td>
                         <span class="party minshu">民主党</span>
                         <span class="party ishin">維新の党</span>
@@ -63,7 +58,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <th>5%に下げるべき</th>
+                    <th>5%に下げる</th>
                     <td>
                         <span class="party shamin">社民党</span>
                     </td>
@@ -197,6 +192,7 @@
         <section>
             <h2>結果</h2>
             <p id="mes"></p>
+
             <a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a>
             <script>
             ! function(d, s, id) {
@@ -267,7 +263,7 @@
         </section>
     </div>
 
-    <div class="result">
+    <div id="result">
         <div class="gage jimin"></div>
         <div class="gage minshu"></div>
         <div class="gage ishin"></div>
@@ -277,8 +273,8 @@
         <div class="gage shamin"></div>
         <div class="gage jisedai"></div>
     </div>
-    <script src="bower_components/jQuery/dist/jquery.min.js"></script>
-    <script src="js/script.js"></script>
+    <script charset='utf-8' src="bower_components/jQuery/dist/jquery.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
