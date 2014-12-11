@@ -5,7 +5,15 @@ var Q_MAX = 5,
 function init() {
     $('button.next').click(nextSection);
     $('button.answer').click(selectAnswer);
+    setup();
+}
+
+function setup() {
     qId = 0;
+
+    $('.page:not(:first-child), .page section:not(:first-child)').css({
+        display: 'none'
+    });
 
     for (var i = 0, max = data.length; i < max; i++) {
         data[i].count = 0;
@@ -13,6 +21,8 @@ function init() {
             width: '0%'
         });
     }
+
+    $(document.body).show();
 }
 
 function nextSection(node) {
